@@ -1,0 +1,15 @@
+# main for task one is main.cpp
+# to compile 
+g++ -c taskOne.cpp
+g++ main.cpp -o pa4TaskOne taskOne.o
+# to execute
+./pa4TaskOne
+
+
+
+# main for task two is mainTaskTwo.cpp
+# to compile 
+g++ -c taskTwo.cpp
+g++ mainTaskTwo.cpp -o pa4TaskTwo taskTwo.o
+# to execute
+./pa4TaskTwo ../truckload.txt
